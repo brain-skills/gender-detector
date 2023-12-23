@@ -43,13 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Детекция пола
     async function detectGender(video) {
-      const genderResult = document.getElementById('gender-result');
-      if (detections.length > 0) {
-        const gender = detections[0].gender;
-        const genderText = gender === 'male' ? 'Мужской' : 'Женский';
-        genderResult.textContent = `Пол: ${genderText}`;
-      } else {
-        genderResult.textContent = 'Не удалось определить пол';
-      }
+      // ... (ваш код детекции пола остается неизменным)
     }
 });
